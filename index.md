@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Vulnerable Container Hub (VULCONHUB)
+title: OWASP Vulnerable Container Hub
 tags: appsec education 
 level: 2
 type: documentation, code
