@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Vulnerable Container Hub
+title: OWASP Vulnerable Container Hub (VULCONHUB)
 tags: appsec education 
 level: 2
 type: documentation, code
@@ -9,18 +9,15 @@ pitch: A very brief, one-line description of your project
 
 ---
 
-The OWASP Vulnerable Container Hub project is the project that shares:
- - docker/podman container image build files(e.g. Dockerfile, Buildah script) to build a vulnerable container,
- - documentation to describe the container 
- - and optionally the link to the repository(e.g. one in Docker hub or Quay.io) users can directly pull and run. 
- 
-The files found here are to build a vulnerable container image through which everyone can freely learn, play, practice, do a quick Proof-of-concept of CVE vulnerabilities or use them for preparation for their CTF challenges.
+The OWASP Vulnerable Container Hub(VULCONHUB) is a project that provides:
 
-The aim of the project is for anyone who is interested in to upload and maintain useful dockerfiles for security learning and practices. The end goal would be the best well-known reference when anyone wants to seek vulnerable containers. 
+access to Dockerfile(or a similar Containerfile) along with files that are used to build the vulnerable container image
+documentation such as README that describes how to use the container, and optionally, a link to the image in the registry service such as Docker Hub or Quay.io, where a user can directly pull and run the container (on their own account).
+The files provided in the repository allow users to build vulnerable container images, so that they can freely and safely learn, play, practice, and perform quick proof-of-concepts of CVE vulnerabilities or use them for preparation for their CTF challenges.
 
-Note: Dockerfile or Buildah script file must be provided so that everyone can get the information on what is going to be installed.
+The ultimate goal of the project is to become the go-to reference to help anyone interested in security to share and maintain such useful container build files for security learning and practices.
 
 
 ## Contributions 
 
-TBD
+Contribution to the [repository](https://github.com/OWASP/vulnerable-container-hub) that contains container builds files is more than welcome!
